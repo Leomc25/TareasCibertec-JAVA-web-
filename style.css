@@ -1,0 +1,44 @@
+/*Funcion en CSS que permite que el NAVBAR esté redondeado*/
+.custom-navbar {
+  border-radius: 25px; /* Ajusta el nivel de redondeo */
+  margin: 15px;        /* Espacio para que no quede pegado */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+}
+
+.carousel-img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+ 
+/*Funcion en CSS que permite que se ajuste la imagen y los botones del carrousel que se visualizen*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100% 100%;
+}
+
+.carousel-img {
+  max-width: 900px; /* ajusta el tamaño máximo de las imágenes */
+  height: auto;
+}
+
+/* Mueve las flechas hacia adentro */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;  /* ancho del área clickeable */
+}
+
+.custom-arrow {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 15%; /* mueve la flecha izquierda hacia adentro */
+}
+
+.carousel-control-next {
+  right: 15%; /* mueve la flecha derecha hacia adentro */
+}
